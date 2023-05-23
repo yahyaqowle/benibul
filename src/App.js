@@ -8,7 +8,7 @@ import "./style.scss";
 function App() {
   return (
     <Router>
-      <Route exact path="/" component={Home} />
+      <Route exact path="/home" component={Home} />
       <Route path="/login" component={Login} />
       <Route path="/register" component={Register} />
     </Router>
